@@ -1,0 +1,34 @@
+body {
+	background: white;
+	width: 315px;
+	height: auto;
+	padding: 8px;
+}
+.task-add-three-txt{
+	height: 145px;
+	width: 170px;
+	padding: 3px;
+	border: 1px solid grey;
+}
+
+.one{
+	background-color: #ea1a1a;
+	width: 50px;
+	height: 40px;
+	margin: 3px;
+}
+.two{
+	background-color: #ecdb0c;
+	width: 100px;
+}
+.three{
+	background-color: #26267f;
+	width: 150px;
+}
+/*вынес общие стили*/
+.two, .three {
+	height: 40px;
+	/*margin: 3px;
+	margin-top: 10px;*/
+	margin: 10px 3px 3px;
+}
